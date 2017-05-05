@@ -46,8 +46,6 @@ public class MainApp extends Application {
      */
     public MainApp() {
         // Add some sample data
-    	
-    	//TODO: ArrayList<PersonDomainModel> people should call getPersons() in PersonDAL
     	ArrayList<PersonDomainModel> people = PersonDAL.getPersons();
     	
     	
